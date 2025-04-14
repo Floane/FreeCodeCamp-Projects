@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Project | Technical Documentation Page</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header id="title">Python for beginners</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#Installation">Installation</a></li>
+          <li><a class="nav-link" href="#Basic_Syntax">Basic Syntax</a></li>
+          <li><a class="nav-link" href="#Control_Structures">Control Structures</a></li>
+          <li><a class="nav-link" href="#Functions">Functions</a></li>
+          <li><a class="nav-link" href="#Lists_&_Dictionaries">Lists & Dictionaries</a></li>
+          <li><a class="nav-link" href="#Tips_&_Best_Practices">Tips & Best Practices</a></li>
+          <li><a class="nav-link" href="#Additional_Resources">Additional Resources</a></li>
+        </ul>
+      </nav>
+
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+          <p>Python is a simple, readable and versatile interpreted programming language. It is widely used in web development, data science, artificial intelligence, cybersecurity, automation and many other fields.</p>
+          <p>Why learn Python?</p>
+          <ul>
+            <li>Easy for beginners to learn</li>
+            <li>Clear, human-like syntax</li>
+            <li>Large community and many resources</li>
+            <li>Compatible with all operating systems</li>
+          </ul>
+      </section>
+
+      <section id="Installation" class="main-section">
+        <header>Installation</header>
+          <p>Steps:</p>
+          <ol>
+            <li>Go to the : <a href="https://www.python.org" target="_blank">official website</a></li>
+            <li>Download the latest version of Python (3.x)</li>
+            <li>Install it by checking the “Add Python to PATH” option</li>
+            <li>In a terminal or command prompt, type :</li>
+          </ol>
+          <div class="text-code">
+            <code>python --version</code>
+          </div>
+      </section>
+
+      <section id="Basic_Syntax" class="main-section">
+        <header>Basic Syntax</header>
+          <div>
+            <p>Display text:</p>
+            <div class="text-code">
+              <code>print("Hello World")</code>
+            </div>
+          </div>
+
+          <div>
+            <p>Creating variables:</p>
+            <div class="text-code">
+              <code>
+                name = "Alice" <br>
+                age = 25 <br>
+                is_major = True
+              </code>
+            </div>
+          </div>
+
+          <div>
+            <p>Comments: </p>
+            <div class="text-code">
+              <code><span id="code-comment"># This is a comment<span></code>
+            </div>
+          </div>
+      </section>
+
+      <section id="Control_Structures" class="main-section">
+        <header>Control Structures</header>
+          <div>
+            <p>Condition if/else:</p>
+            <div class="text-code">
+              <code>
+                age = 17<br>
+                if age >= 17:<br>
+                <span id="indent"></span>print("You are an adult.")<br>
+                else:<br>
+                <span id="indent">print("You are a minor.")
+              </code>
+            </div>
+          </div>
+
+          <div>
+            <p>Loop for: </p>
+            <div class="text-code">
+              <code>
+                for i in range(5):<br>
+                <span id="indent">print("Compteur :", i)
+              </code>
+            </div>
+          </div>
+
+          <div>
+            <p>Loop while: </p>
+            <div class="text-code">
+              <code>
+                i = 0<br>
+                while i < 3:<br>
+                <span id="indent">print("i vaut", i)<br>
+                <span id="indent">i += 1
+              </code>
+            </div>
+          </div>
+      </section>
+
+      <section id="Functions" class="main-section">
+        <header>Functions</header>
+          <p>Defining and calling a function :</p>
+          <div class="text-code">
+            <code>
+              def dire_bonjour(nom):<br>
+              <span id="indent">print("Bonjour", nom)<br>
+              <span id="indent">dire_bonjour("Alice")
+            </code>
+          </div>
+      </section>
+
+      <section id="Lists_&_Dictionaries" class="main-section">
+        <header>Lists & Dictionaries</header>
+          <div>
+            <p>Lists:</p>
+            <div class="text-code">
+              <code>
+                fruits = ["pomme", "banane", "mangue"]<br>
+                print(fruits[0]) <span id="code-comment"># Affiche "pomme"</span>
+              </code>
+            </div>
+          </div>
+
+          <div>
+            <p>Dictionaries</p>
+            <div class="text-code">
+              <code>
+                personne = {<br>
+                  <span id="indent">"nom": "Alice",<br>
+                  <span id="indent">"âge": 25<br>
+                }<br>
+                print(personne["nom"])  <span id="code-comment"># Affiche "Alice"</span>
+              </code>
+            </div>
+          </div>
+      </section>
+
+      <section id="Tips_&_Best_Practices" class="main-section">
+        <header>Tips & Best Practices</header>
+          <ul>
+            <li>Always indent your code (Python uses indentation to organize blocks)</li>
+            <li>Choose clear and explicit variable names</li>
+            <li>Test your code often</li>
+            <li>Comment when useful</li>
+          </ul>
+      </section>
+
+      <section id="Additional_Resources" class="main-section">
+        <header>Additional Resources</header>
+          <a href="https://docs.python.org/fr/3/" target="_blank">Official documentation</a>
+          <a href="https://www.w3schools.com/python/" target="_blank">Interactive tutorials</a>
+          <a href="https://pythontutor.com" target="_blank">Step-by-step visualization</a>
+      </section>
+    </main>
+  </body>
+</html>
