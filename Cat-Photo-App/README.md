@@ -16,4 +16,4 @@ Ajouter :
 Un page avec des photos de chats, une liste de choses que les chats aiment et un formulaire de renseignement sur son chat.
 
 ---
-🌐 Projet basé sur l'exercice : [FreeCodeCamp - Learn HTML by Bulding a Cat Photo App] (https://www.freecodecamp.org/learn/2022/responsive-web-design)
+🌐 Projet basé sur l'exercice : [FreeCodeCamp - Learn HTML by Bulding a Cat Photo App] (https://www.freecodecamp.org/learn/2022/responsive-web-design#learn-html-by-building-a-cat-photo-app)
