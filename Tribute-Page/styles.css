@@ -1,0 +1,135 @@
+body {
+  background-image: url("https://aebc975c.rocketcdn.me/wp-content/uploads/2021/11/iStock-1090972218-1.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Merriweather, sans-serif;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(2px);
+  padding: 40px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  margin-top: 0;
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  color: #006400;
+}
+
+main p {
+  margin-top: -10px;
+  font-size: 18px;
+  color: #333333;
+}
+
+#img-div p {
+  font-size: 15px;
+  color: #333333;
+  padding-bottom: 10px;
+}
+
+.timeline, #tribute-info, .quotes, .links {
+  border: none;
+  border-top: 2px solid #333333;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+#description {
+  color: #006400;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.timeline > ul > li {
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+#tribute-info {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.left p {
+  text-align: left;
+}
+
+.right p {
+  text-align: right;
+}
+
+.first-letter {
+  font-weight: 700;
+  font-size: 30px;
+  color: #006400;
+}
+
+.quotes {
+  font-family: Dancing Script, sans-serif;
+  font-weight: 800px;
+  font-size: 23px;
+  color: #006400;
+  text-align: center;
+  margin-top: -20px;
+  border-top: none;
+
+}
+
+.links {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.links label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #006400;
+}
+
+.links a:hover {
+  color: #333333;
+}
+
+main {
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#img-caption {
+  padding-top: 20px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: -40px;
+  border-top: 2px solid #333333;
+}
