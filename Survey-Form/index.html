@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Project | Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">What kind of moviegoer are you? 🎬</h1>
+    <p id="description">Welcome to this mini questionnaire for all movie lovers! We promise, it's quick, fun, and spoiler-free.<br>So grab your (imaginary) seat at the cinema, and let’s go!</p>
+    <form id="survey-form">
+      <fieldset class="info">
+        <label id="name-label">
+          Name 
+          <input id="name" type="text" placeholder="Enter your name" required/>
+        </label>
+        <label id="email-label">
+          Email 
+          <input id="email" type="email" placeholder="Enter your email" required/>
+        </label>
+        <label id="number-label">
+          Age 
+          <input id="number" type="number" placeholder="Enter your age" min="10" max="100"/>
+        </label>
+      </fieldset>
+
+      <fieldset class="questions">
+        <!-- What's your favourite kind of film? -->
+        <h4>What's your favourite kind of film?</h4>
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" name="genre" value="horror"/> Horror
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="comedy"/> Comedy
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="action"/> Action
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="drama"/> Drama
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="romance"/> Romance
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="science-fiction"/> Science fiction
+          </label>
+          <label class="other-genre">
+            <input type="checkbox" name="genre" value="other"/> Other
+          <input type="text" name="other-genre"/>
+          </label>
+        </div>
+          
+        <!-- How often do you go to the cinema? -->
+        <h4>How often do you go to the cinema?</h4>
+        <label>
+          <select id="dropdown">
+            <option>Select one</option>
+            <option>Once a week</option>
+            <option>Once a month</option>
+            <option>A few times a year</option>
+            <option>Never</option>
+          </select>
+        </label>
+
+        <!-- How many films do you watch on average per month? -->
+        <h4>How many films do you watch on average per month?</h4>
+        <label>
+          <input type="number" min="0" placeholder="Enter a number"/>
+        </label>
+
+        <!-- What's your favourite film of all time? -->
+        <h4>
+          What's your favourite film of all time?
+        </h4>
+        <label>
+          <input type="text" placeholder="Enter your favorite movie"/>
+          </label>
+
+        <!-- Team popcorn : sweet or salty? -->
+        <h4>Team popcorn: sweet or salty?
+        </h4>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="popcorn" value="sweet"/> Sweet
+          </label>
+          <label>
+            <input type="radio" name="popcorn" value="salty"/> Salty
+          </label>
+          <label>
+            <input type="radio" name="popcorn" value="both"/> Both
+          </label>
+          <label>
+            <input type="radio" name="popcorn" value="i-hate"/> I hate popcorn 😱
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="creativity">
+        <!-- Creativity -->
+        <h4>If you were to write a short screenplay, what would it be?</h4>
+        <label>
+          <textarea placeholder="In just a few sentences, invent a mini-story from a movie. It can be funny, sad, absurd or downright epic... it's up to you!"></textarea>
+        </label>
+
+        <!-- Submit button -->
+        <button type="submit" id="submit">Submit 🍿</button>
+      </fieldset>
+    </form>
+  </body>
+  <footer class="footer">
+    <p>Made with ❤️ for movie lovers – © 2025</p>
+  </footer>
+</html>
